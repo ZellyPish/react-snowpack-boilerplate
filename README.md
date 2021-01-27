@@ -33,6 +33,7 @@
 
 ## Known Issues:
 - HMR(Hot Module Replacement) not working [Related issue on snowpack github](https://github.com/snowpackjs/snowpack/discussions/2334)
+- React SPA routing is broken [Related discussion on snowpack github](https://github.com/snowpackjs/snowpack/discussions/2412)
 - Package which has `@` symbol at the beginning of package name(like @emotion/react) isn't install correctly [Related discussion on snowpack github](https://github.com/snowpackjs/snowpack/discussions/2385)
 
 #### Package Install Quick Fix
