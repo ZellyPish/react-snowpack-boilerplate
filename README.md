@@ -22,3 +22,9 @@
 
 ### Build
 - `yarn build` or `npm build`
+
+
+## Streaming Imports Version
+
+If you want experience snowpack v3's latest feature that 'streaming imports', please see [this branch](https://github.com/ZellyPish/react-snowpack-pwa/tree/Streaming-Imports-Version)
+but it has some issues.
