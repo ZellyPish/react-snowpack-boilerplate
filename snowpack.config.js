@@ -1,29 +1,29 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    public: "/",
-    src: "/dist",
+    public: '/',
+    src: '/dist',
   },
   plugins: [
-    "@snowpack/plugin-react-refresh",
-    "@snowpack/plugin-babel",
-    "@snowpack/plugin-postcss",
+    '@snowpack/plugin-react-refresh',
+    '@snowpack/plugin-babel',
+    '@snowpack/plugin-postcss',
     // "@snowpack/plugin-dotenv",
     // "@snowpack/plugin-webpack",
   ],
   routes: [
     /* Enable an SPA Fallback in development: */
-    // {"match": "routes", "src": ".*", "dest": "/index.html"},
+    { match: 'routes', src: '.*', dest: '/index.html' },
   ],
   optimize: {
     bundle: true,
     minify: true,
   },
   packageOptions: {
-    source: "remote",
+    source: 'local',
   },
   devOptions: {
-    open: "none",
+    open: 'none',
   },
   buildOptions: {
     sourcemap: true,

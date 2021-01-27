@@ -4,7 +4,7 @@
     "es2021": true,
     "jest/globals": true
   },
-  "extends": ["plugin:react/recommended", "plugin:jest/recommended", "airbnb", "prettier"],
+  "extends": ["plugin:react/recommended", "plugin:jest/recommended", "airbnb", "plugin:prettier/recommended"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -12,9 +12,8 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", "jest"],
+  "plugins": ["react", "jest", "prettier"],
   "rules": {
-    "import/no-unresolved": 0,
     "react/prefer-stateless-function": 0,
     "react/jsx-filename-extension": 0,
     "react/jsx-one-expression-per-line": 0,

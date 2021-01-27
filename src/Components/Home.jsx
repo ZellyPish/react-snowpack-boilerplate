@@ -18,7 +18,8 @@ const Home = () => {
     <div>
       <header>
         <p>
-          This page was opened before <code css={blueColor}>{count}</code> seconds.
+          This page was opened before <code css={blueColor}>{count}</code>{' '}
+          seconds.
         </p>
       </header>
     </div>
