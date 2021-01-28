@@ -14,16 +14,6 @@
 - @emotion/react, @emotion/styled for CSS-in-JS
 - eslint and prettier
 
-## Quick Start
-
-1. `git clone https://github.com/ZellyPish/react-snowpack-pwa.git <YOUR_PROJECT_NAME>`
-2. `cd <YOUR_PROJECT_NAME>`
-3. `yarn` or `npm install`
-4. `yarn start` or `npm start`
-
-### Build
-- `yarn build` or `npm build`
-
 ## How to:
 
 ### Adding Packages
